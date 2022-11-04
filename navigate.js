@@ -4,6 +4,8 @@ import React from "react";
 import Main from "./components/Main";
 import Settings from "./components/Settings";
 import Profile from "./components/Profile";
+import Music   from "./components/Music";
+import Sleep from "./components/Sleep"
 
 const Stack = createStackNavigator();
 export default function Navigate(){
@@ -23,6 +25,16 @@ export default function Navigate(){
             name="Profile"
             component={Profile}
             options={{title:"Профиль", headerStyle:{height:0}, headerLeft:()=>null,}}
+            />
+            <Stack.Screen
+            name="Music"
+            component={Music}
+            options={{title:"Музыка", headerStyle:{height:0}, headerLeft:()=>null,}}
+            />
+            <Stack.Screen
+            name="Sleep"
+            component={Sleep}
+            options={{title:"Сон", headerStyle:{height:0}, headerLeft:()=>null,}}
             />
         </Stack.Navigator>
     </NavigationContainer>

@@ -111,7 +111,7 @@ export const gStyle = StyleSheet.create({
       },
       strl:{
         flex:0,
-        top:25,
+        top:-1,
         left:168,
 
       },
@@ -213,5 +213,133 @@ export const gStyle = StyleSheet.create({
       bottom:-50,
       marginHorizontal:86,
      },
-    
+     searchbar:{
+      bottom:250,
+      left:65,
+      borderRadius:300,
+     },
+     searchv:{
+      position:"absolute",
+     },
+     toback:{
+      position:"absolute",
+     },
+     back:{
+      top:-300,
+      left:15,
+      width:20,
+     },
+     music:{
+        position:"absolute",
+        fontSize:40,
+        color:"#48598D",
+        fontWeight:"bold",
+        bottom:615,
+        left:55,
+     },
+    tocons:{
+      position:"absolute",
+    },
+    cons:{
+      bottom:143,
+      left:240,
+    },
+    toson:{
+      position:"absolute",
+    },
+    son:{
+      bottom:143,
+      left:30,
+      
+    },
+    torelax2:{
+      position:"absolute",
+    },
+    relax2:{
+      bottom:-10,
+      left:240,
+    },
+
+    toson3:{
+      position:"absolute",
+    },
+
+    son3:{
+      bottom:-163,
+      left:240,
+    },
+
+    toson4:{
+      position:"absolute",
+    },
+
+    son4:{
+      bottom:-163,
+      left:30,
+    },
+
+    torelax:{
+      position:"absolute",
+    },
+    relax:{
+      bottom:-10,
+      left:30,
+    },
+    input:{ 
+      color:"black", 
+      position: 'absolute', 
+      width: 30, 
+      height: 40, 
+      left: 77, 
+      top: 103, 
+  },
+  toname:{
+    position:"absolute",
+  },
+  name:{
+    bottom:200,
+    left:53,
+  },
+
+  toname1:{
+    position:"absolute",
+  },
+  name1:{
+    bottom:100,
+    left:53,
+  },
+  
+  toname2:{
+    position:"absolute",
+  },
+  name2:{
+    bottom:0,
+    left:53,
+  },
+
+   
+  toname3:{
+    position:"absolute",
+  },
+  name3:{
+    bottom:0,
+    left:53,
+  },
+
+   
+  toname4:{
+    position:"absolute",
+  },
+  name4:{
+    bottom:-100,
+    left:53,
+  },
+
+  toname5:{
+    position:"absolute",
+  },
+  name5:{
+    bottom:-200,
+    left:53,
+  },
   });

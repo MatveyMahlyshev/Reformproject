@@ -25,7 +25,7 @@ export default function Main({navigation}){
     
   }
   const loadScene5=()=>{
-    console.log('Музыка')
+    navigation.navigate('Music')
     
   }
   
@@ -39,8 +39,6 @@ export default function Main({navigation}){
    const centrbutton = require('../Images/knopka11.png')
    const centrbutton1 = require('../Images/knopka22.png')
    const centrbutton2 = require('../Images/knopka33.png')
-   const dialog = require('../Images/Dialog.png')
-   const practice = require('../Images/Practice.png')
    
    
    return(
