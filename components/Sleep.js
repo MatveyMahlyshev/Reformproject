@@ -48,7 +48,7 @@ const loadScene4=()=>{
             />   
         </TouchableOpacity>
 
-        <TouchableOpacity style = {gStyle.toname} onPress={loadScene4}>
+        <TouchableOpacity style = {gStyle.toname} onPress={loadScene3}>
       <Image 
             source={name}
             style={gStyle.name} 
